@@ -2,7 +2,7 @@ class Message
   require 'twilio-ruby'
   attr_reader :my_number, :time
   def initialize
-    @my_number = '+447510060718'
+    @my_number = '+447510000000'
     @time = Time.now + 60 * 60
   end
 
